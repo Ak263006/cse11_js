@@ -27,13 +27,21 @@
 //object
 // 
 // symbol type
-const sym1=symbol(4);
-console.log(sym1);
-const sym2=symbol(4);
-console.log(sym2);
-if(sym1==sym2){
-    console,log("true");
-}
-else{
-    console.log("false");
-}
+
+// const sym1=Symbol(4);
+// console.log(sym1);
+// const sym2=Symbol(4);
+// console.log(sym2);
+// if(sym1==sym2){
+//     console,log("true");
+// }
+// else{
+//     console.log("false");
+// }
+
+// find out the maximum out of three nu,mbers with the help of ternary operator.
+var a=16;
+var b=20;
+var c=10;
+var max=(a>b)?(a>c?a:c):(b>c?b:c);
+console.log("the maximum number is:" + max)
