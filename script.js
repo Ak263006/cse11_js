@@ -40,8 +40,15 @@
 // }
 
 // find out the maximum out of three nu,mbers with the help of ternary operator.
-var a=16;
-var b=20;
-var c=10;
-var max=(a>b)?(a>c?a:c):(b>c?b:c);
-console.log("the maximum number is:" + max)
+// var a=16;
+// var b=20;
+// var c=10;
+// var max=(a>b)?(a>c?a:c):(b>c?b:c);
+// console.log("the maximum number is:" + max);
+
+var count;
+        console.log("starting loop");
+        for(count=0;count<10;count++){
+            console.log("current count:"+ count);
+           
+        }
