@@ -88,20 +88,20 @@
 // console.log(myinfo,myinfo1);
 
 
-let collection=[
-    {},
-    [],
-    true,
-    "john",
-    function(){
+// let collection=[
+//     {},
+//     [],
+//     true,
+//     "john",
+//     function(){
 
-    },
-    976789,
-    undefined,
-    null,
-    // new string("abc"),
-    new Date()
-];
-console.log(collection);
-collection.teachername="john";
-console.log(collection);
+//     },
+//     976789,
+//     undefined,
+//     null,
+//     // new string("abc"),
+//     new Date()
+// ];
+// console.log(collection);
+// collection.teachername="john";
+// console.log(collection);
