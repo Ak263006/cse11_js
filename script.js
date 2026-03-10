@@ -46,9 +46,62 @@
 // var max=(a>b)?(a>c?a:c):(b>c?b:c);
 // console.log("the maximum number is:" + max);
 
-var count;
-        console.log("starting loop");
-        for(count=0;count<10;count++){
-            console.log("current count:"+ count);
+// var count;
+//         console.log("starting loop");
+//         for(count=0;count<10;count++){
+//             console.log("current count:"+ count);
            
-        }
+//         }
+
+// var res=mul(12,30);
+// function mul(x,y){
+//     console.log (x*y);
+// }
+// //arrow function;
+// var mul2=(x,y)=>{
+//     console.log (x*y);
+// }
+// mul2(12,30);
+// //arrrow function for single line parameters;
+// var mul3=(x,y)=> console.log(x*y);
+
+
+//OBJECT 
+//it can also be created using let x=new Object();
+// var person={
+//     name:"Aashish",
+//     age:22,
+//     ismarried:false,
+//     city:"Kathmandu",
+//     address:{
+//         street:"Lazimpat",
+//         number:123
+//     },
+//     hobbies:["coding","gaming","travelling"],
+// }
+
+
+//array: it is an ordered collection of data. it can store multiple values in a single variable. it is also an object in javascript.
+// it is an special type of object.
+// var myinfo=new Array();
+// var myinfo1=Array();
+// console.log(myinfo,myinfo1);
+
+
+let collection=[
+    {},
+    [],
+    true,
+    "john",
+    function(){
+
+    },
+    976789,
+    undefined,
+    null,
+    // new string("abc"),
+    new Date()
+];
+console.log(collection);
+collection.teachername="john";
+console.log(collection);
