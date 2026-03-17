@@ -19,6 +19,9 @@
 // pElements[1].innerText="My Paragraph";
 
 //Query selector
-const test=document.querySelectorAll("para");
+const test=document.querySelector('li');//id is targeted with#,class is targeted with. and tag is targeted with tag name.;
 test.style.Color="yellow";
 console.log(test);
+
+
+// to apply css to the element we use (.style.property);

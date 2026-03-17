@@ -105,3 +105,21 @@
 // console.log(collection);
 // collection.teachername="john";
 // console.log(collection);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
